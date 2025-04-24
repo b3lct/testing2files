@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to My Retro Website!</title>
+    <style>
+        body {
+            background-color: #00FFFF;
+            font-family: "Comic Sans MS", cursive;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://web.archive.org/web/20090830181635/http://geocities.com/hk/stargif/stars.gif');
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #FFFF99;
+            border: 5px solid #FF00FF;
+            padding: 20px;
+        }
+        .counter {
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #FF0000;
+        }
+        .guestbook {
+            background-color: #FFFFFF;
+            border: 2px dashed #0000FF;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        .construction {
+            text-align: center;
+            margin: 20px 0;
+        }
+        blink {
+            animation: blink-animation 1s steps(5, start) infinite;
+        }
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <marquee behavior="alternate" scrollamount="5" bgcolor="#FF69B4">
+            <font size="5" color="#FFFFFF">★ Welcome to My Awesome Website! ★</font>
+        </marquee>
+
+        <center>
+            <h1><font color="#FF0000">My Cool Retro Website</font></h1>
+            <img src="https://web.archive.org/web/20090829130231/http://geocities.com/hk/birdline.gif" alt="Divider">
+        </center>
+
+        <table width="100%" border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <td width="200" bgcolor="#FF99CC" valign="top">
+                    <center><b>Navigation</b></center>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#links">Cool Links</a></li>
+                        <li><a href="#guestbook">Guestbook</a></li>
+                    </ul>
+                </td>
+                <td bgcolor="#FFFFFF" valign="top">
+                    <blink>NEW! Check out my latest updates!</blink>
+                    <p>Welcome to my personal website! I made this with HTML! Make yourself at home!</p>
+                    <p><marquee>This site looks best in Internet Explorer 6.0 at 800x600 resolution!</marquee></p>
+                </td>
+            </tr>
+        </table>
+
+        <div class="counter">
+            <p>You are visitor number:</p>
+            <img src="https://web.archive.org/web/20091027130924/http://hk.geocities.com/counter.gif" alt="visitor counter">
+        </div>
+
+        <div class="guestbook">
+            <center><h3>Sign My Guestbook!</h3></center>
+            <form>
+                <p>Name: <input type="text" name="name"></p>
+                <p>Message: <br><textarea rows="4" cols="50"></textarea></p>
+                <input type="button" value="Sign Guestbook!">
+            </form>
+        </div>
+
+        <div class="construction">
+            <img src="https://web.archive.org/web/20091027130924/http://hk.geocities.com/construction.gif" alt="Under Construction">
+            <br>
+            <font size="2">This site is under construction! Please come back soon!</font>
+        </div>
+
+        <center>
+            <p><small>Best viewed with:</small><br>
+            <img src="https://web.archive.org/web/20090830181635/http://geocities.com/ie_button.gif" alt="Internet Explorer">
+            <img src="https://web.archive.org/web/20090830181635/http://geocities.com/netscape_button.gif" alt="Netscape Navigator">
+            </p>
+        </center>
+    </div>
+</body>
+</html> 
